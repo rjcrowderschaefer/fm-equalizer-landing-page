@@ -82,7 +82,7 @@ body {
     "article article article"
     "aside aside aside"
     "footer footer footer";
-    grid-template-rows: 10% 30%;
+    grid-template-rows: 10% 50% 30% 30%;
     grid-template-columns: repeat(3, 1fr);
     height: 100vh;
     margin: 0;
@@ -111,13 +111,40 @@ body {
 
 #pageArticle {
     grid-area: article;
-    margin-left: 25px;
 }
 
 h1 {
     font-size: 4.0rem;
+    margin-top: 25px;
 }
 
+.article-description {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-right: 25px;
+}
+
+h1, .article-description {
+    margin-left: 25px;
+}
+
+.phone-visual {
+    position: absolute;
+    margin-left: 0px;
+}
+
+.illustration-app {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    z-index: 1;
+}
+
+.bg-pattern-2 {
+    position: relative;
+    z-index: -1;
+
+}
 
 #pageAside {
     grid-area: aside;
