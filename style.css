@@ -156,10 +156,25 @@ h1, .article-description {
 
 #pageAside {
     grid-area: aside;
-    background-color: #FA7453;
-    padding-left: 25px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    min-height: 600px;
+}
+
+.aside-bg {
+    position: absolute;
+    background-color: #FA7453;
+    width: 100%;
+    border-radius: 15px;;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    z-index: 3;
+    top: -16%;
+}
+
+h2, .aside-description, .price-display {
+    padding-left: 25px;
 }
 
 h2 {
@@ -176,7 +191,7 @@ h2 {
     color: #FCFAF9;
     font-weight: 400;
     margin-top: 15px;
-    margin-right: 35px;
+    margin-right: 41px;
 }
 
 .price-display {
@@ -197,6 +212,46 @@ h2 {
     color: #FCFAF9;
     font-weight: 400;
     margin-left: 15px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 325px;
+    height: 61px;
+    border-radius: 15px;
+    font-size: 1.8rem;
+}
+
+#ios {
+    background-color: #191826;
+    color: #FCFAF9;
+}
+
+#apple-svg {
+    width: 17.08px;
+    margin-right: 3px;
+    margin-bottom: -0.5px;
+    padding-top: 4px;
+}
+
+#android {
+    background-color: #FCFAF9;
+    color: #191826;
+    margin-bottom: 45px;
+    margin-top: 18px;
+}
+
+#android-svg {
+    width: 16.7px;
+    margin-right: 3px;
+    margin-bottom: -1.5px;
+    padding-top: 3px;
+
 }
 
 #pageFooter {
