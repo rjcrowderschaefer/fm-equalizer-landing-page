@@ -99,6 +99,7 @@ body {
     margin-left: 25px;
     margin-top: 30px;
     width: 146.09px;
+    margin-bottom: 25px;
 }
 
 #pageArticle {
@@ -110,6 +111,7 @@ body {
 h1 {
     font-size: 4.0rem;
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .article-description {
@@ -131,7 +133,7 @@ h1, .article-description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .illustration-app {
@@ -171,7 +173,7 @@ h1, .article-description {
 }
 
 h2, .aside-description, .price-display {
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 h2 {
@@ -188,7 +190,7 @@ h2 {
     color: #FCFAF9;
     font-weight: 400;
     margin-top: 15px;
-    margin-right: 41px;
+    margin-right: 50px;
 }
 
 .price-display {
@@ -218,7 +220,7 @@ h2 {
 }
 
 button {
-    width: 325px;
+    width: 315px;
     height: 61px;
     border-radius: 15px;
     font-size: 1.8rem;
@@ -227,6 +229,12 @@ button {
 #ios {
     background-color: #191826;
     color: #FCFAF9;
+    font-weight: 700;;
+}
+
+#ios:hover {
+    background-color: #66E2DC;
+    color: 
 }
 
 #apple-svg {
@@ -239,8 +247,13 @@ button {
 #android {
     background-color: #FCFAF9;
     color: #191826;
+    font-weight: 700;
     margin-bottom: 45px;
     margin-top: 18px;
+}
+
+#android:hover {
+    background-color: #FFB964;
 }
 
 #android-svg {
@@ -282,7 +295,19 @@ button {
     margin-right: 15px;
 }
 
+#fb:hover path {
+    fill: #FA7453;
+}
+
 #ig {
     margin-right: 15px;
+}
+
+#ig:hover path {
+    fill: #FA7453;
+}
+
+#tw:hover path {
+    fill: #FA7453;
 }
 
