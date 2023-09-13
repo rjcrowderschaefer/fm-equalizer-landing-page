@@ -139,7 +139,6 @@ h1, .article-description {
     width: 50%;
     top: 0;
     z-index: 2;
-    /* display: inline-block */
 }
 
 .bg-pattern-2 {
@@ -159,18 +158,16 @@ h1, .article-description {
     display: flex;
     flex-direction: column;
     position: relative;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .aside-bg {
     position: absolute;
     background-color: #FA7453;
     width: 100%;
-    border-radius: 15px;;
-    /* border-top-left-radius: 15px;
-    border-top-right-radius: 15px; */
+    border-radius: 15px;
     z-index: 3;
-    top: -16%;
+    top: -19%;
 }
 
 h2, .aside-description, .price-display {
@@ -256,4 +253,36 @@ button {
 
 #pageFooter {
     grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
 }
+
+#footer-logo {
+    width: 130px;
+}
+
+.footer-legal {
+    color: #191826;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-right: 55px;
+    margin-bottom: 60px;
+}
+
+.contact-email {
+    font-weight: 700;
+}
+
+.social-logos {
+    margin-bottom: 80px;
+}
+
+#fb {
+    margin-right: 15px;
+}
+
+#ig {
+    margin-right: 15px;
+}
+
