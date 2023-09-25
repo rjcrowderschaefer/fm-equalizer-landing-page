@@ -27,8 +27,7 @@ Users should be able to:
 
 ![Mobile](https://i.imgur.com/sFmZ4rE.png)
 ![Tablet](https://i.imgur.com/BUVSUML.png)
-![Desktop - Top](https://i.imgur.com/EuEWSGI.png)
-![Desktop - Bottom](https://i.imgur.com/hq55NLF.png)
+![Desktop](https://i.imgur.com/LgdPgam.png)
 ![Desktop - Hover iOS button](https://i.imgur.com/IWb41rt.png)
 ![Desktop - Hover Android button](https://i.imgur.com/IndItH7.png)
 
